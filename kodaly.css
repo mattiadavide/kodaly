@@ -10,14 +10,14 @@ body{
    
 }
 
-.text {font-size: 17px;  text-align: justify; font-weight: 100; line-height: 200%; border-bottom: solid 1px; border-top: solid 1px; border-color: rgba(0,0,0,0.25);display: table-cell; vertical-align: middle;}
+.text {font-size: 17px;  text-align: justify; line-height: 200%; border-bottom: solid 1px; border-top: solid 1px; border-color: rgba(0,0,0,0.25);display: table-cell; vertical-align: middle;}
 
 .header {  width: 100vw; height:60px; text-align: center; vertical-align: middle; font-size: 16px;  position:-webkit-sticky; position:sticky; top:0; background-color: white; display: table-cell; border-bottom: solid 1px; border-bottom-color: rgba(0,0,0,0.25); z-index: 1; background-color: white; opacity: 0.96 } 
 
 a { background-color: transparent; border-left: 1px solid; border-left-color: rgba(0,0,0,0.25); }
         
 
-.sec {width: 100%;  text-align: center; vertical-align: middle; width: 100%; }
+.sec {width: 100%;  text-align: center; vertical-align: middle; width: 100%;}
 
 
 
@@ -33,7 +33,7 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
 
 
 
-.col {width: 100%;  word-wrap: break-word;text-align: center;  font-family: verdana;  background-color: white; margin: auto; display: table; }
+.col {width: 100%;  word-wrap: break-word;text-align: center;  font-family: verdana;  background-color: white; margin: 16px; display: table; }
 
 
 .box {display: inline-flex;}
