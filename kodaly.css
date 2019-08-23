@@ -33,7 +33,7 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
 
 
 
-.col {width: 100%;  word-wrap: break-word;text-align: center;  font-family: verdana;  background-color: white; margin: 16px; display: table; }
+.col {width: 100%;  word-wrap: break-word;text-align: center;  font-family: verdana;  background-color: white; margin: auto; display: table; }
 
 
 .box {display: inline-flex;}
@@ -108,7 +108,7 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
     margin-right: 4%;
     
     
-    }
+    } .text {font-size: 17px;  text-align: justify; line-height: 200%; border-bottom: solid 0px; border-top: solid 0px; border-color: rgba(0,0,0,0.25);}
 
 }
 
