@@ -197,7 +197,7 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
     
 .banner {width: 100%; height: 75vw; margin-top: 0px}
     
-.box {display: grid; margin-left: 4px; margin-right: 4px ; margin-top: 24vw; margin-bottom: 10vw}
+.box {display: grid; margin-left: 4px; margin-right: 4px ; margin-top: 20vw; margin-bottom: 10vw}
     
 .picture{width: 100%; height: 60vw; background-size: contain; margin-bottom: 20vw ; margin-top:0vw}
   
