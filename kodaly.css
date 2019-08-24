@@ -12,7 +12,7 @@ body{
 
 .text {font-size: 17px;  text-align: justify; line-height: 200%; border-bottom: solid 1px; border-top: solid 1px; border-color: rgba(0,0,0,0.25);display: table-cell; vertical-align: middle;}
 
-.header {  width: 100vw; height:60px; text-align: center; vertical-align: middle; font-size: 16px;  position:-webkit-sticky; position:sticky; top:0; background-color: white; display: table-cell; border-bottom: solid 1px; border-bottom-color: rgba(0,0,0,0.25); z-index: 1; background-color: white; } 
+.header {  width: 100vw; height:60px; text-align: center; vertical-align: middle; font-size: 16px;  position:-webkit-sticky; position:sticky; position:fixed; top:0; background-color: white; display: table-cell; border-bottom: solid 1px; border-bottom-color: rgba(0,0,0,0.25); z-index: 1; background-color: white; } 
 
 a { background-color: transparent; border-left: 1px solid; border-left-color: rgba(0,0,0,0.25); }
         
