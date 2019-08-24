@@ -12,7 +12,9 @@ body{
 
 .text {font-size: 17px;  text-align: justify; line-height: 200%; border-bottom: solid 1px; border-top: solid 1px; border-color: rgba(0,0,0,0.25);display: table-cell; vertical-align: middle;}
 
-.header {  width: 100vw; height:60px; text-align: center; vertical-align: middle; font-size: 16px;  position:-webkit-sticky; position:sticky; position:fixed; top:0; background-color: white; display: table-cell; border-bottom: solid 1px; border-bottom-color: rgba(0,0,0,0.25); z-index: 1; background-color: white; } 
+.header {    position:-webkit-sticky; position:sticky; position:fixed; top:0; background-color: white; border-bottom: solid 1px; border-bottom-color: rgba(0,0,0,0.25); z-index: 1; background-color: white; } 
+
+.menu {  width: 100vw; height:60px; text-align: center; vertical-align: middle; font-size: 16px;  top:0; background-color: white; display: table-cell;  }
 
 a { background-color: transparent; border-left: 1px solid; border-left-color: rgba(0,0,0,0.25); }
         
@@ -160,9 +162,9 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
     
 .banner {width: 100%; height: 35vw; margin-top: 10px}
     
-.box {display: inline-flex; margin-left: 4px; margin-right: 4px ; margin-top: 10px}
+.box {display: grid; margin-left: 4px; margin-right: 4px ; margin-top: 10vw; margin-bottom: 10vw}
     
-.picture{width: 100%; height: 20vw; background-size: contain; margin-bottom: 15%; margin-top: 15%}
+.picture{width: 100%; height: 20vw; background-size: contain; margin-bottom: 10vw; margin-top: 0%}
   
 }
 
@@ -195,9 +197,9 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
     
 .banner {width: 100%; height: 75vw; margin-top: 0px}
     
-.box {display: grid; margin-left: 4px; margin-right: 4px ; margin-top: 10px}
+.box {display: grid; margin-left: 4px; margin-right: 4px ; margin-top: 24vw; margin-bottom: 10vw}
     
-.picture{width: 100%; height: 60vw; background-size: contain; margin-bottom: 45vw; margin-top: 18vw}
+.picture{width: 100%; height: 60vw; background-size: contain; margin-bottom: 20vw ; margin-top:0vw}
   
 }
 
