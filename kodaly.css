@@ -2,7 +2,7 @@ body{
 	padding: 0;
 	margin: 0;
     margin:0px auto;
-    height: 1000px;
+    height: 100%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
    
     
@@ -12,7 +12,7 @@ body{
 
 .text {font-size: 17px;  text-align: justify; line-height: 200%; border-bottom: solid 1px; border-top: solid 1px; border-color: rgba(0,0,0,0.25);display: table-cell; vertical-align: middle;}
 
-.header {  width: 100vw; height:60px; text-align: center; vertical-align: middle; font-size: 16px;  position:-webkit-sticky; position:sticky; top:0; background-color: white; display: table-cell; border-bottom: solid 1px; border-bottom-color: rgba(0,0,0,0.25); z-index: 1; background-color: white; opacity: 0.96 } 
+.header {  width: 100vw; height:60px; text-align: center; vertical-align: middle; font-size: 16px;  position:-webkit-sticky; position:sticky; top:0; background-color: white; display: table-cell; border-bottom: solid 1px; border-bottom-color: rgba(0,0,0,0.25); z-index: 1; background-color: white; } 
 
 a { background-color: transparent; border-left: 1px solid; border-left-color: rgba(0,0,0,0.25); }
         
@@ -21,30 +21,25 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
 
 
 
-.parallax {background-image: url("");
 
-  height: 300px; 
-
-  
-  background-attachment: fixed;
-  background-position: canter;
-  background-size: cover;
-  background-repeat: no-repeat; }
 
 
 
 .col {width: 100%;  word-wrap: break-word;text-align: center;  font-family: verdana;  background-color: white; margin: auto; display: table; }
 
 
-.box {display: inline-flex;}
-.content {
-    
-    margin-left: 15%;
-    margin-right: 15%;
-    
-    
-    }
-.banner {background-color: black;}
+.box {display: inline-flex; margin-top: 120px;margin-bottom: 120px; margin-left: 15%; margin-right: 15%;}
+
+.banner {width: 100%; height: 400px; background-size: contain; background-repeat: no-repeat; background-position: center; background-color:black
+                       ; margin-top: 0px}
+
+
+
+.picture{width: 100%; height: 150px; background-size: contain; background-repeat: no-repeat; background-position: center;}
+
+
+
+
 .logo {
    height: 12vw;
   -webkit-animation-name: spin;
@@ -102,14 +97,112 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
 }
 
 
-@media only screen and (max-width: 1280px) { .box {display: grid;} .content {
-    
-    margin-left: 4%;
-    margin-right: 4%;
-    
-    
-    } .text {font-size: 17px;  text-align: justify; line-height: 200%; border-bottom: solid 0px; border-top: solid 0px; border-color: rgba(0,0,0,0.25);}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
 }
 
-@media only screen and (max-width: 725px) { .banner {background-color: transparent;}}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .banner {width: 100%; height: 55vw; margin-top: 0vw}
+    
+.box {display: grid; margin-left: 4px; margin-right: 4px ; margin-top: 20vw}
+    
+.picture{width: 100%; height: 40vw; background-size: contain; margin-bottom: 20vw; margin-top: 0vw}
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+
+    
+.banner {width: 100%; height: 35vw; margin-top: 10px}
+    
+.box {display: inline-flex; margin-left: 4px; margin-right: 4px ; margin-top: 10px}
+    
+.picture{width: 100%; height: 20vw; background-size: contain; margin-bottom: 15%; margin-top: 15%}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .b {display: none}
+    
+.banner {width: 100%; height: 48vw; margin-top: 0px}
+    
+.box {display: grid; margin-left: 4px; margin-right: 4px ; margin-top: 10px}
+    
+.picture{width: 100%; height: 30vw; background-size: contain; margin-bottom: 15vw; margin-top: 15vw}
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .b {display: none}
+    
+.banner {width: 100%; height: 75vw; margin-top: 0px}
+    
+.box {display: grid; margin-left: 4px; margin-right: 4px ; margin-top: 10px}
+    
+.picture{width: 100%; height: 60vw; background-size: contain; margin-bottom: 45vw; margin-top: 18vw}
+  
+}
+
+
+
+
+
+ 
