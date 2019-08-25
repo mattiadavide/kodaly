@@ -10,7 +10,7 @@ body{
    
 }
 
-.text {font-size: 17px;  text-align: justify; line-height: 200%; border-bottom: solid 1px; border-top: solid 1px; border-color: rgba(0,0,0,0.25);display: table-cell; vertical-align: middle;}
+.text {font-size: 19px;  text-align: justify; line-height: 200%; border-bottom: solid 1px; border-top: solid 1px; border-color: rgba(0,0,0,0.25);display: table-cell; vertical-align: middle; height: 15vw;}
 
 .header {    position:-webkit-sticky; position:sticky; position:fixed; top:0; background-color: white; border-bottom: solid 1px; border-bottom-color: rgba(0,0,0,0.25); z-index: 1; background-color: white; } 
 
@@ -27,17 +27,16 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
 
 
 
-.col {width: 100%;  word-wrap: break-word;text-align: center;  font-family: verdana;  background-color: white; margin: auto; display: table; }
+.col {width: 100%;  word-wrap: break-word;text-align: center;  font-family: verdana;  background-color: white; margin: auto; display: table;  }
 
 
-.box {display: inline-flex; margin-top: 120px;margin-bottom: 120px; margin-left: 15%; margin-right: 15%;}
+.box {display: inline-flex; margin-top: 4vw;margin-bottom: 4vw; margin-left: 15vw; margin-right: 15vw;}
 
-.banner {width: 100%; height: 40vw; background-size: contain; background-repeat: no-repeat; background-position: center; background-color:black
-                       ; margin-top: 0px}
-
+.banner {width: 100%; height: 30vw; background-size: contain; background-repeat: no-repeat; background-position: center; background-color:black; margin-top: 4vw;}
 
 
-.picture{width: 100%; height: 15vw; background-size: contain; background-repeat: no-repeat; background-position: center;}
+
+.picture{width: 100%; height: 11vw; background-size: contain; background-repeat: no-repeat; background-position: center;}
 
 
 
@@ -142,11 +141,11 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
 
 @media (min-width: 768px) and (max-width: 1024px) {
   
-  .banner {width: 100%; height: 55vw; margin-top: 0vw}
+  .banner {width: 100%; height: 68vw; margin-top: 6vw}
     
-.box {display: grid; margin-left: 4px; margin-right: 4px ; margin-top: 20vw}
+.box {display: grid; margin-left: 6vw; margin-right: 6vw ; margin-top: 10vw}
     
-.picture{width: 100%; height: 40vw; background-size: contain; margin-bottom: 10vw; margin-top: 0vw}
+.picture{width: 100%; height: 40vw; background-size: contain; margin-bottom: 10vw; margin-top: 0vw; background-position: center;}
   
   
 }
@@ -164,7 +163,7 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
     
 .box {display: grid; margin-left: 4px; margin-right: 4px ; margin-top: 5vw; margin-bottom: 10vw}
     
-.picture{width: 100%; height: 20vw; background-size: contain; margin-bottom: 10vw; margin-top: 0%}
+.picture{width: 100%; height: 20vw; background-size: contain; margin-bottom: 10vw; margin-top: 0%; background-position: center;}
   
 }
 
@@ -181,7 +180,7 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
     
 .box {display: grid; margin-left: 4px; margin-right: 4px ; margin-top: 10px}
     
-.picture{width: 100%; height: 30vw; background-size: contain; margin-bottom: 15vw; margin-top: 15vw}
+.picture{width: 100%; height: 30vw; background-size: contain; margin-bottom: 15vw; margin-top: 15vw; background-position: center;}
 
   
 }
@@ -195,11 +194,11 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
   
   .b {display: none}
     
-.banner {width: 100%; height: 70vw; margin-top: 0px}
+.banner {width: 100%; height: 74vw; margin-top: 17vw}
     
 .box {display: grid; margin-left: 4px; margin-right: 4px ; margin-top: 15vw; margin-bottom: 10vw}
     
-.picture{width: 100%; height: 50vw; background-size: contain; margin-bottom: 15vw ; margin-top:0vw}
+.picture{width: 100%; height: 50vw; background-size: contain; margin-bottom: 15vw ; margin-top:0vw; background-position: center;}
   
 }
 
