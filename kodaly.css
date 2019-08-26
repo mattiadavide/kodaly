@@ -143,8 +143,8 @@ video {position: relative;  transform: translatey(-50%); width:  100%; height: 5
 @media (min-width: 768px) and (max-width: 1024px) {
 
     .box {display: grid; margin-left: 4px; margin-right: 4px ; margin-bottom: 15vw}
-    .banner {margin-bottom: 5vw}
-    .picture{margin-bottom: 5vw; height: 250px;}
+    .banner {margin-bottom: 10vw}
+    .picture{margin-bottom: 10vw; height: 250px;}
     video { height: 70vw;} 
     .banner { height: 63vw; }
 }
