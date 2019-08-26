@@ -183,13 +183,13 @@ video { height: 46vw;}
   
   .b {display: none}
     
-.banner { height: 80vw; margin-bottom: 15vw; overflow: hidden;  }
+.banner { height: 75vw; margin-bottom: 15vw; overflow: hidden;  }
     
 .box {display: grid; margin-left: 4px; margin-right: 4px ; margin-bottom: 15vw}
     
 .picture{width: 100%; height: 46vw; background-size: contain; background-position: center; margin-bottom: 25vw;}
  
-video {position: relative; height: 80vw; width:  100%;   transform: scale(1.6); } 
+video {position: relative; height: 75vw; width:  100%;   transform: scale(1.6); } 
     
 }
 
