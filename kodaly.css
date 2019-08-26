@@ -145,7 +145,8 @@ video {position: relative;  transform: translatey(-50%); width:  100%; height: 5
     .box {display: grid; margin-left: 4px; margin-right: 4px ; margin-bottom: 15vw}
     .banner {margin-bottom: 15vw}
     .picture{margin-bottom: 15vw; height: 250px;}
-
+    video { height: 70vw;} 
+    .banner { height: 63vw; }
 }
 /* 
   ##Device = Tablets, Ipads (landscape)
