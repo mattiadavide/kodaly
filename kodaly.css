@@ -1,4 +1,5 @@
 body{
+    overflow-y: hidden;
 	padding: 0;
 	margin: 0;
     margin:0px auto;
@@ -145,8 +146,7 @@ video {position: relative;  transform: translatey(-50%); width:  100%; height: 5
     .box {display: grid; margin-left: 4px; margin-right: 4px ; margin-bottom: 15vw}
     .banner {margin-bottom: 18vw; height: 63vw;}
     .picture{margin-bottom: 10vw; height: 250px;}
-    video { height: 70vw;} 
-    .
+    video { height: 70vw;}
 }
 /* 
   ##Device = Tablets, Ipads (landscape)
