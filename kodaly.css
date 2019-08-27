@@ -160,7 +160,7 @@ video {position: relative;  transform: translatey(-50%); width:  100%; height: 5
   .a {display: none}
     .b {display:inline;} 
 video { height: 38vw;} 
-.banner { height: 38vw; margin-bottom: 4vw; }
+.banner { height: 38vw; margin-bottom: 3vw; }
 .box {display: grid; margin-left: 4vw; margin-right: 4vw ; margin-bottom: 8vw}
 .picture{width:height: 24vw; margin-bottom: 4vw;}  
     
@@ -175,10 +175,10 @@ video { height: 38vw;}
  
   .b {display: none}
     .a {display:inline;} 
-video { height: 46vw;} 
-.banner { height: 46vw; }
+video { height: 48vw;} 
+.banner { height: 48vw; margin-bottom: 15vw; }
 .box {display: grid; margin-left: 4vw; margin-right: 4vw ; margin-bottom: 15vw}
-.picture{width: 100%; height: 46vw; background-size: contain; background-position: center; margin-bottom: 10vw;}  
+.picture{width: 100%; height: 30vw; background-size: contain; background-position: center; margin-bottom: 15vw;}  
 }
 
 /* 
