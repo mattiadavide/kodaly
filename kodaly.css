@@ -21,9 +21,9 @@ a { background-color: transparent; border-left: 1px solid; border-left-color: rg
         
   .a {display: none}
 
-video {position: relative;  transform: translatey(-50%); width:  100%; height: 500px; overflow: hidden;  transform: scale(1) }
+video {position: relative;  transform: translatey(-50%); width:  100%; height: 400px; overflow: hidden;  transform: scale(1) }
 
-
+.gallery img{width: 24%;}
 
 
 
@@ -34,7 +34,7 @@ video {position: relative;  transform: translatey(-50%); width:  100%; height: 5
 
 .box {display: inline-flex; margin-bottom: 4vw; margin-left: 20vw; margin-right: 20vw;}
 
-.banner { height: 500px; background-repeat: no-repeat; background-position: center; background-color:black; margin-top: 60px; margin-bottom: 4vw; text-align: center; }
+.banner { height: 400px; background-repeat: no-repeat; background-position: center; background-color:black; margin-top: 60px; margin-bottom: 4vw; text-align: center; }
 
 
 
@@ -149,6 +149,7 @@ video {position: relative;  transform: translatey(-50%); width:  100%; height: 5
     .banner {margin-bottom: 18vw; height: 64vw;}
     .picture{margin-bottom: 10vw; height: 250px;}
     video { height: 70vw;}
+    .gallery img{width: 100%;}
 }
 /* 
   ##Device = Tablets, Ipads (landscape)
@@ -162,7 +163,8 @@ video {position: relative;  transform: translatey(-50%); width:  100%; height: 5
 video { height: 38vw;} 
 .banner { height: 38vw; margin-bottom: 3vw; }
 .box {display: grid; margin-left: 4vw; margin-right: 4vw ; margin-bottom: 8vw}
-.picture{width:height: 24vw; margin-bottom: 4vw;}  
+.picture{width:height: 24vw; margin-bottom: 4vw;} 
+.gallery img{width: 100%;}    
     
     }
 
@@ -178,7 +180,8 @@ video { height: 38vw;}
 video { height: 48vw;} 
 .banner { height: 48vw; margin-bottom: 15vw; }
 .box {display: grid; margin-left: 4vw; margin-right: 4vw ; margin-bottom: 15vw}
-.picture{width: 100%; height: 30vw; background-size: contain; background-position: center; margin-bottom: 15vw;}  
+.picture{width: 100%; height: 30vw; background-size: contain; background-position: center; margin-bottom: 15vw;}
+.gallery img{width: 100%;}    
 }
 
 /* 
@@ -197,10 +200,11 @@ video { height: 48vw;}
     
 .picture{width: 100%; height: 46vw; background-size: contain; background-position: center; margin-bottom: 25vw;}
  
-video {position: relative; height: 75vw; width:  100%;   transform: scale(1.6); } 
+video {position: relative; height: 75vw; width:  100%;   transform: scale(1.6); }
+    
+.gallery img{width: 100%;}
     
 }
-
 
 
 
