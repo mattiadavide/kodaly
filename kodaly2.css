@@ -212,7 +212,7 @@ video {height: 100%;}
     .text img {margin: 20px; width: 48px; vertical-align: middle;}
     video { width: 100%;   transform: scale(1.5); }
     .banner { height: 300px;}
-    .picture {margin-top: 10%; margin-bottom: 10%;}
+    .picture {height: 300px;}
 .gallery img {width: 90%}
     
     iframe {height: 80vw}
