@@ -192,11 +192,11 @@ video {height: 100%; width: 100%; transform: scale(1)}
     .a {display:inline;}
     .text { margin-left: 25px; margin-right: 25px;}
     video {transform: scale(1.4)}
-    .banner {height: 250px; margin-top: 60px; background-color: transparent;}
+    .banner {height: 280px; background-color: transparent;}
     .text {margin-top: 10px;}
     .gallery img{height: 300px; margin-top: 50%;}
     iframe {height: 250px; margin-top: 40px;}
-    .picture{height: 150px; margin-top: 70px; margin-bottom: 40px}
+    .picture{height: 250px;}
 
 }
  

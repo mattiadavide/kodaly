@@ -42,6 +42,7 @@ html.fp-enabled,
     display: table;
     table-layout:fixed;
     width: 100%;
+    margin-top: 60px;
 }
 .fp-tableCell {
     display: table-cell;
