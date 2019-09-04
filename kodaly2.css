@@ -176,7 +176,7 @@ video {height: 100%; width: 100%; transform: scale(1)}
     .banner {height: 158px; margin-top: 40px; margin-bottom: 10px}
     
     p{height: 160px;width: 580px}
-    .gallery img{height: 200px;}
+    .gallery img{height:00px;}
     iframe {height: 20px}
     .picture {height: 110px}
 }
