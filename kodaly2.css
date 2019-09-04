@@ -191,7 +191,7 @@ video {height: 100%; width: 100%; transform: scale(1)}
     .b {display: none}
     .a {display:inline;}
     .text { margin-left: 25px; margin-right: 25px; margin-top: 5px}
-    
+    video{transform: scale(1.2)}
     .banner {height: 50%;}
     
     .gallery img{height: 70%; margin-top: -60px;}
