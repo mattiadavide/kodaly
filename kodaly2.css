@@ -196,7 +196,7 @@ video {height: 100%; width: 100%; transform: scale(1)}
     .text {margin-top: 10px;}
     .gallery img{height: 300px; margin-top: 50%;}
     iframe {height: 250px; margin-top: 40px;}
-    .picture{height: 200px; margin-top: 20%; margin-bottom: 10%}
+    .picture{height: 150px; margin-top: 60px; margin-bottom: 60px}
 
 }
  
