@@ -31,7 +31,7 @@ a { background-color: transparent; color: black; text-decoration: none;}
 video {height: 100%; width: 100%; transform: scale(1)}
 
 
-.banner { height: 428px; background-repeat: no-repeat; background-position: center; background-color:black; text-align: center;}
+.banner { height: 428px; background-repeat: no-repeat; background-position: center; background-color:black; text-align: center; overflow: hidden}
 
 
 
@@ -190,9 +190,9 @@ video {height: 100%; width: 100%; transform: scale(1)}
   
     .b {display: none}
     .a {display:inline;}
-    .text { margin-left: 25px; margin-right: 25px; margin-top: 5px}
-    video{transform: scale(1.2)}
-    .banner {height: 50%;}
+    .text { margin-left: 25px margin-right: 25px; margin-top: 5px}
+    video{transform: scale(1.6)}
+    .banner {height: 50%; background-color: black}
     
     .gallery img{height: 70%; margin-top: -60px;}
     iframe {height: 50%; margin-top: -70px;}
