@@ -194,7 +194,7 @@ video {height: 100%; width: 100%; transform: scale(1)}
     video{transform: scale(1.4)}
     .banner {height: 50%;}
     
-    .gallery img{height: 70%;}
+    .gallery img{height: 70%; margin-top: -60px;}
     iframe {height: 50%;}
     .picture{height: 50%;}
 
