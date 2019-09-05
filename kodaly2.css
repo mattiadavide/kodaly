@@ -185,14 +185,14 @@ video {height: 100%; width: 100%; transform: scale(1)}
 @media (min-width: 481px) and (max-width: 767px) {
  
     
-     .text { margin-left: 25px; margin-right: 25px; align-self: center; margin-top: 0; width:100%;}
+     .text { margin-left: 25px; margin-right: 25px; align-self: center; margin-top: 0; width:130%;}
     
     p {border-top: none; }
     
     video{transform: scale(1.55)}
     .banner {height: 100%; margin-bottom: 0px; width: 100%;}
     
-    .gallery img{height: 38vw; margin-top: -40px;}
+    .gallery img{height: 30vw; margin-top: -40px;}
     
     .picture{height: 100%; width: 100%;}
     iframe {height: 100%; margin-right: 60vw;}
