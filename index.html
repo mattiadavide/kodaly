@@ -234,7 +234,7 @@ The attribution of a physical identity for every music pitch eases the use of th
          anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9', 'page10', 'page11'],
   sectionsColor: ['white', 'white', 'white', 'white', 'white','white','white','white','white','white'],
     scrollingSpeed: 500,     
-         
+      autoScrolling: false,    
          controlArrows: false,
          slidesNavigation: true,
           paddingTop: '60px',
@@ -259,13 +259,7 @@ The attribution of a physical identity for every music pitch eases the use of th
 	.mouseleave(function(){
 			$(this).find('iframe').removeClass('clicked')});
      
-     if($(window).width() > 1000) { $.fn.fullpage.setAutoScrolling(true); }
-else{ $.fn.fullpage.setAutoScrolling(false); }
-
-$( window ).resize(function() {
-if($(window).width() > 1000) { $.fn.fullpage.setAutoScrolling(true); }
-else { $.fn.fullpage.setAutoScrolling(false);}
-});
+     
      
     </script>   
 </body>
