@@ -196,10 +196,10 @@ video {height: 100%; width: 100%; transform: scale(1)}
     video{transform: scale(1.6)}
     .banner {height: 50%; background-color: black; margin-top: 0px; margin-bottom: 0px;}
     
-    .gallery img{height: 50%; margin-top: -60px;}
+    .gallery img{height: 60%; margin-top: -60px;}
     
     .picture{height: 50%;}
-    iframe {height: 90vw; margin-top: -50px}
+    iframe {height: 80vw; margin-top:-80px}
 
 }
  
