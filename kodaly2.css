@@ -208,7 +208,7 @@ video {height: 100%; width: 100%; transform: scale(1)}
     .a {display:inline;}
     .text { margin-left: 25px; margin-right: 25px; margin-top: 10px}
     video{transform: scale(1.6)}
-    .banner {height: 80vw; margin-bottom: 10vw;}
+    .banner {height: 80vw; margin-bottom: 5vw;}
     
     .gallery img{height: 90vw; margin-top: -60px;}
     
