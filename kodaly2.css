@@ -21,7 +21,7 @@ p {font-size: 19px;  text-align: justify; line-height: 200%; border-top: solid 1
 a { background-color: transparent; color: black; text-decoration: none;}
         
   .a {display: none}
- iframe {height: 25vw;}
+ iframe {height: 25vw; margin-top: -25px;}
 
 .gallery img { border-radius: 50vw; height: 40vw; margin-top: -60px}
 
@@ -185,15 +185,23 @@ video {height: 100%; width: 100%; transform: scale(1)}
 @media (min-width: 481px) and (max-width: 767px) {
  
     
-    .text { margin-left: 25px; margin-right: 25px; margin-top: 5px}
+     .text { margin-left: 25px; margin-right: 25px; align-self: center; margin-top: 0; width:100%;}
+    
+    p {border-top: none; }
+    
     video{transform: scale(1.55)}
-    .banner {height: 24vw; margin-bottom: 5px;}
+    .banner {height: 100%; margin-bottom: 0px; width: 100%;}
     
-    .gallery img{height: 30vw; margin-top: -60px;}
+    .gallery img{height: 38vw; margin-top: -40px;}
     
-    .picture{height: 20vw;}
-    iframe {height: 18vw;}
-.text img {margin: 9px;}
+    .picture{height: 100%; width: 100%;}
+    iframe {height: 100%; margin-right: 60vw;}
+
+  
+   .section .fp-tableCell{display: inline-flex;} 
+    
+     #gallery .fp-tableCell{display: table-cell;} 
+  
    
 }
 
