@@ -21,7 +21,7 @@ p {font-size: 19px;  text-align: justify; line-height: 200%; border-top: solid 1
 a { background-color: transparent; color: black; text-decoration: none;}
         
   .a {display: none}
- iframe {height: 400px; margin-top: -139px}
+ iframe {height: 400px;}
 
 .gallery img { border-radius: 50%; height: 600px; margin-top: -60px}
 
@@ -31,8 +31,17 @@ a { background-color: transparent; color: black; text-decoration: none;}
 video {height: 100%; width: 100%; transform: scale(1)}
 
 
-.banner { height: 400px; background-repeat: no-repeat; background-position: center; background-color:black; text-align: center; overflow: hidden; margin-bottom: 60px; margin-top: -79px}
+.banner { height: 400px; background-repeat: no-repeat; background-position: center; background-color:black; text-align: center; overflow: hidden; margin-bottom: 60px;}
 
+#banner .fp-tableCell{
+     vertical-align: top;
+}
+
+
+#iframe .fp-tableCell{
+     
+    vertical-align: top;
+}
 
 
 .picture{height: 250px ; background-size: contain; background-repeat: no-repeat; background-position: center; }
@@ -194,12 +203,12 @@ video {height: 100%; width: 100%; transform: scale(1)}
     .a {display:inline;}
     .text { margin-left: 25px; margin-right: 25px; margin-top: 5px}
     video{transform: scale(1.6)}
-    .banner {height: 50%; background-color: black; margin-top: 0px; margin-bottom: 0px;}
+    .banner {height: 50%; margin-bottom: 0px;}
     
     .gallery img{height: 60%; margin-top: -60px;}
     
     .picture{height: 50%;}
-    iframe {height: 80vw; margin-top:-80px}
+    iframe {height: 80vw;}
 
 }
  
