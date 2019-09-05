@@ -187,7 +187,7 @@ video {height: 100%; width: 100%; transform: scale(1)}
     
      .text { margin-left: 25px; margin-right: 25px; align-self: center; margin-top: 0; width:130%;}
     
-    p {border-top: none; }
+    p {border-top: none; font-size: 16px;}
     
     video{transform: scale(1.55)}
     .banner {height: 100%; margin-bottom: 0px; width: 100%;}
