@@ -12,7 +12,7 @@ body{
 
 .text { margin-left: 25%; margin-right: 25%; margin-top: 60px}
 
-p {font-size: 19px;  text-align: justify; line-height: 200%; border-top: solid 1px; border-color: rgba(0,0,0,0.25); vertical-align: middle; display: table-cell; height: 10vw;}
+p {font-size: 16px;  text-align: justify; line-height: 200%; border-top: solid 1px; border-color: rgba(0,0,0,0.25); vertical-align: middle; display: table-cell; height: 10vw;}
 
 .header {    position:-webkit-sticky; position:sticky; position:fixed; top:0; background-color: white; border-bottom: solid 1px; border-bottom-color: rgba(0,0,0,0.25); z-index: 1; background-color: white;  } 
 
