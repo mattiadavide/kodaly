@@ -23,7 +23,7 @@ a { background-color: transparent; color: black; text-decoration: none;}
   .a {display: none}
  iframe {height: 25vw; margin-top: -25px;}
 
-.gallery img { border-radius: 50vw; height: 40vw; margin-top: -60px}
+.gallery img { border-radius: 50vw; height: 40vw;}
 
 
 .album {text-align: center;}
@@ -192,7 +192,7 @@ video {height: 100%; width: 100%; transform: scale(1)}
     video{transform: scale(1.55)}
     .banner {height: 100%; margin-bottom: 0px; width: 100%;}
     
-    .gallery img{height: 20vw; margin-top: -40px;}
+    .gallery img{height: 40vw;}
     
     .picture{height: 100%; width: 100%;}
     iframe {height: 100%; margin-right: 60vw;}
@@ -218,7 +218,7 @@ video {height: 100%; width: 100%; transform: scale(1)}
     video{transform: scale(1.6)}
     .banner {height: 75vw; margin-bottom: 5vw;}
     
-    .gallery img{height: 90vw; margin-top: -60px;}
+    .gallery img{height: 90vw;}
     
     .picture{height: 60vw;}
     iframe {height: 70vw;}
