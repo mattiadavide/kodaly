@@ -30,7 +30,7 @@
 <div class="section" id="banner">
     
            
-<div class="banner"> <video autoplay muted data-keepplaying>
+<div class="banner"> <video autoplay muted data-keepplaying playsinline>
             <source  src="img/kibo1.mp4" type="video/mp4"/>
             .
         </video> 
@@ -230,17 +230,32 @@ The attribution of a physical identity for every music pitch eases the use of th
     
 </div>    
 
- <script>new fullpage('#fullpage', {
-         anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9', 'page10', 'page11'],
+        <script>
+    
+    var slideTimeout;
+
+$('#fullpage').fullpage({
+    
+     anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9', 'page10', 'page11'],
   sectionsColor: ['white', 'white', 'white', 'white', 'white','white','white','white','white','white'],
     scrollingSpeed: 500,     
       autoScrolling: true,    
          controlArrows: false,
          slidesNavigation: false,
           paddingTop: '60px',
-         
+    
+    afterRender: function () {
+        //on page load, start the slideshow
+         slideTimeout = setInterval(function () {
+                $.fn.fullpage.moveSlideRight();
+            }, 5000);
+    },
+  
+controlArrows: false,
+
 });
-    $(document).on('click', '#kibo', function(){
+    
+   $(document).on('click', '#kibo', function(){
   fullpage_api.moveTo('page1');
 });
      
@@ -259,8 +274,7 @@ The attribution of a physical identity for every music pitch eases the use of th
 	.mouseleave(function(){
 			$(this).find('iframe').removeClass('clicked')});
      
-     
-     
-    </script>   
+       
+    </script>  
 </body>
 </html>
